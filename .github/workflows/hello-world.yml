@@ -34,6 +34,6 @@ jobs:
           echo test, and deploy your project.
 
       - name: Show date
-        run: echo "TODAY=$(date + %y-%m-%d)" >> $GITHUB_ENV
-         run: echo Hello today is $TODAY
+        run: echo Hello today is TODAY
+
         
